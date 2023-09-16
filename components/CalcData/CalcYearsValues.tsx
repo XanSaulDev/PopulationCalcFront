@@ -8,7 +8,7 @@ export const CalcYearsValues = () => {
       <ul>
         {
           valuesAcrossYears.map( (population, index) => (
-            <li key={population} className="flex gap-4"> 
+            <li key={population+Date.now()*Math.random()} className="flex gap-4"> 
               {index}
               <span className="font-semibold">
                 Población:
