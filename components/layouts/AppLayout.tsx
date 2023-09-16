@@ -19,11 +19,11 @@ export const AppLayout: FC<Props> = ({ children }) => {
         <meta name="keywords" content="población, calcular, crecimiento, ecuaciones, diferenciales" />
         <meta
           property="og:title"
-          content={`Información sobre el pokémon }`}
+          content="Calcula el crecimiento de la población"
         />
         <meta
           property="og:description"
-          content="Página que sirve para calcular el crecimiento de la población"
+          content="Aplicación e información sobre el crecimiento exponencial"
         />
         <meta property="og:image" content={`${origin}/images/calc.png`} />
       </Head>
