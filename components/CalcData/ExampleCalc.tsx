@@ -8,7 +8,7 @@ export const ExampleCalc = () => {
     <Latex>
     {
         `
-        $\P(t) = C_1 \\cdot e^{rt}\$, es la solución general de la ecuación diferencial $\\frac{dP}{dt} = 0.1 \\cdot P$ $\\newline$
+        $\P(t) = C_1 \\cdot e^{rt}\$, es la solución general de la ecuación diferencial $\\frac{dP}{dt} = r \\cdot P$ $\\newline$
     `}
     </Latex>
     <Latex>{
