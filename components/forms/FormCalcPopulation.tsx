@@ -31,7 +31,7 @@ export const FormCalcPopulation = () => {
               className="rounded-md p-1 outline-none"
               value={form.rate}
               onChange={handleChange}
-              min={0}
+              min="0" step="0.1"
             />
           </label>
 
@@ -45,7 +45,7 @@ export const FormCalcPopulation = () => {
               className="rounded-md p-1 outline-none"
               value={form.population}
               onChange={handleChange}
-              min={0}
+              min="0" step="1"
             />
           </label>
 
@@ -59,7 +59,7 @@ export const FormCalcPopulation = () => {
               className="rounded-md p-1 outline-none"
               value={form.years}
               onChange={handleChange}
-              min={0}
+              min="0" step="1"
             />
           </label>
           <div className="md:self-end">
