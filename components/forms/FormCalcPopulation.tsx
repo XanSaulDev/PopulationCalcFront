@@ -23,7 +23,7 @@ export const FormCalcPopulation = () => {
         <div className="grid md:grid-cols-4 gap-4">
           <label className="flex flex-col w-full">
             <span className="cursor-pointer font-semibold mb-1">
-              Growth rate per year
+              Tasa de crecimiento
             </span>
             <input
               name="rate"
@@ -31,12 +31,13 @@ export const FormCalcPopulation = () => {
               className="rounded-md p-1 outline-none"
               value={form.rate}
               onChange={handleChange}
+              min={0}
             />
           </label>
 
           <label className="flex flex-col w-full">
             <span className="cursor-pointer font-semibold mb-1">
-              Init population
+              Población inicial
             </span>
             <input
               name="population"
@@ -44,12 +45,13 @@ export const FormCalcPopulation = () => {
               className="rounded-md p-1 outline-none"
               value={form.population}
               onChange={handleChange}
+              min={0}
             />
           </label>
 
           <label className="flex flex-col w-full">
             <span className="cursor-pointer font-semibold mb-1">
-              Time on year
+              Años
             </span>
             <input
               name="years"
@@ -57,6 +59,7 @@ export const FormCalcPopulation = () => {
               className="rounded-md p-1 outline-none"
               value={form.years}
               onChange={handleChange}
+              min={0}
             />
           </label>
           <div className="md:self-end">
@@ -67,7 +70,7 @@ export const FormCalcPopulation = () => {
                             transition-all duration-300 ease-in-out 
                             text-white rounded-lg py-2 cursor-pointer
                             md:w-24 w-full"
-              value="Calculate"
+              value="Calcular"
             />
           </div>
         </div>

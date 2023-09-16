@@ -11,7 +11,7 @@ export const CalcYearsValues = () => {
             <li key={population} className="flex gap-4"> 
               {index}
               <span className="font-semibold">
-                Population count 
+                Población:
               </span>
               {population.toPrecision(6)}
             </li>

@@ -8,4 +8,5 @@ export interface ICalcContext{
   htmlFigure: string;
   getCalcDataAndSetInState: (formData: IFormCalcPopulation) => Promise<void>;
   valuesAcrossYears: number[];
+  isLoading: boolean;
 }
