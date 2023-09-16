@@ -1,0 +1,1 @@
+export { default as calcApi } from './calc-popupulation-endpoint';
