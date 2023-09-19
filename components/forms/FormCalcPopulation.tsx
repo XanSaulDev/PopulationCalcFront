@@ -66,7 +66,7 @@ export const FormCalcPopulation = () => {
             <input
               type="submit"
               className="
-                            bg-red-500 hover:bg-red-600 
+                            bg-red-600 hover:bg-red-700 
                             transition-all duration-300 ease-in-out 
                             text-white rounded-lg py-2 cursor-pointer
                             md:w-24 w-full"
